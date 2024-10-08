@@ -1,0 +1,24 @@
+h1 {
+    color: red;
+}
+.trabajador1 h2{
+    color: blue;text-align: center;
+}
+.trabajador2 h2{
+    color: green; text-align: center;
+}
+.trabajador1 {
+    background-color: grey;
+}
+.trabajador2 {
+    background-color: grey;
+}
+span{
+    text-decoration: underline;
+}
+.datospersonales{
+    border: 2px solid black;
+}
+.estudios{
+    border: 3px double black;
+}
