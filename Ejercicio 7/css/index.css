@@ -1,0 +1,10 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+#id{
+    background-color: grey;
+}
+img{
+    width: 120px;
+    height: 50px;
+}
