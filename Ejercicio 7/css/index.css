@@ -8,3 +8,27 @@ img{
     width: 120px;
     height: 50px;
 }
+h2,h3{
+    border: 1px solid orange;
+}
+ul > li {
+    color:red;
+}
+ul ul > li {
+    color:green;
+}
+img[alt=segunda] {
+    border:5px solid red;
+}
+img{
+    border:5px solid black;
+}
+.antes{
+    background-color: pink;
+}
+.despues{
+    background-color: blue;
+}
+.especial{
+    color: blue;
+}
