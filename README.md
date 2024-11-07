@@ -190,13 +190,13 @@ Realiza la web que se muestra a continuación teniendo en cuenta las siguientes 
 ● Ejercicio 10:
 
 Etiquetas:
-● Una etiqueta de sección <h1> para el título.
-● Varias etiquetas de párrafo <p>, una para cada cita.
-● El nombre del escritor en el primer párrafo lleva la etiqueta <strong>.
-● Los nombres de las obras se ven en cursiva. Podrían utilizarse etiquetas <em>, pero para este tipo de información es más adecuado el uso de la etiqueta <cite>, que también se ve en cursiva cuando no se aplica ninguna hoja de estilo.
+● Una etiqueta de sección h1 para el título.
+● Varias etiquetas de párrafo p, una para cada cita.
+● El nombre del escritor en el primer párrafo lleva la etiqueta strong.
+● Los nombres de las obras se ven en cursiva. Podrían utilizarse etiquetas em, pero para este tipo de información es más adecuado el uso de la etiqueta cite, que también se ve en cursiva cuando no se aplica ninguna hoja de estilo.
 
 Clases:
-En total, se necesitan tres clases de párrafo <p>:
+En total, se necesitan tres clases de párrafo p:
 ● Clase intro: el párrafo de introducción, que tienen un margen izquierdo y derecho
 mayor que el resto.
 ● Clase latin: los párrafos en latín, que aparecen a la izquierda.
@@ -246,10 +246,10 @@ Estilos:
 ● Ejercicio 11:
 
 Etiquetas:
-Las únicas etiquetas de bloque utilizadas son <h1>, <p> y <div>.
+Las únicas etiquetas de bloque utilizadas son h1, p y div.
 
 Clases:
-Cada cita tiene la letra inicial diferente al resto del párrafo. Se podría utilizar una etiqueta <span> con clase, pero puesto que se trata del primer carácter, se puede utilizar
+Cada cita tiene la letra inicial diferente al resto del párrafo. Se podría utilizar una etiqueta span con clase, pero puesto que se trata del primer carácter, se puede utilizar
 simplemente el pseudo-elemento ::first-letter, que no requiere añadir nada al código fuente html.
 
 Posicionamiento:
