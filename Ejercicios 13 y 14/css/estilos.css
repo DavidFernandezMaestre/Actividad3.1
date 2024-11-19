@@ -1,0 +1,38 @@
+
+.titulo{
+    display: flex;
+    padding: 12px;
+    background-color:#1F374E;
+    color: white;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+}
+.titulo img{
+    width: 8%;
+}
+nav ul{
+    color: white;
+    list-style-type: none;
+    background-color: #466883;
+    margin-top: 2px;
+    display: flex;
+    font-size: 20px;  
+}
+nav ul li{
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    background-color: #17293E;
+    font-style: italic;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+footer img{
+    width: 10%;
+}
