@@ -32,7 +32,54 @@ footer{
     color: white;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
 }
 footer img{
-    width: 10%;
+    width: 30%;
+}
+.logos{
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.datos{
+    margin-right: 15px;
+}
+.inicio{
+    display: flex;
+    justify-content:space-between;
+    
+}
+.inicio div{
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.inicio img{
+    width: 60%;
+    height: auto;
+    margin-bottom: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inicio h2{
+    font-size: 20px;
+}
+.inicio p{
+    font-size: 18px;
+    margin-bottom: auto;
+}
+.inicio .imgcss{
+    height: 57%;
+    width: 45%;
+}
+body{
+    background-color: #F0F4F8;
 }
