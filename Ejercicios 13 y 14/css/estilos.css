@@ -5,7 +5,6 @@ body{
 
 .titulo{
     display: flex;
-    padding: 10px;
     background-color:#1F374E;
     color: white;
     justify-content: flex-start;
@@ -100,10 +99,13 @@ h3{
 .mapavideo{
     display: flex;
     gap: 30px;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 .masinfo{
     margin-left: 1%;
     margin-right: 1%;
+}
+.nosotrosmain{
+    width: 100%;
 }
