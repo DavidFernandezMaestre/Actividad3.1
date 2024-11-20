@@ -1,7 +1,11 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+}
 
 .titulo{
     display: flex;
-    padding: 12px;
+    padding: 10px;
     background-color:#1F374E;
     color: white;
     justify-content: flex-start;
@@ -34,14 +38,15 @@ footer{
     justify-content: space-between;
     align-items: center;
     font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 footer img{
     width: 30%;
 }
 .logos{
-    margin-left: 15%;
-    display: flex;
-    justify-content: space-between;
+    width: 11%;
 }
 .datos{
     margin-right: 15px;
@@ -55,14 +60,15 @@ footer img{
     border: 1px solid gray;
     border-radius: 10px;
     box-shadow: 0 0 5px gray;
-    padding: 2%;
+    padding: 1%;
     margin-top: 2%;
     margin-bottom: 3%;
     margin-left: 2%;
     margin-right: 2%;
+    overflow: hidden;
 }
 .inicio img{
-    width: 60%;
+    width: 50%;
     height: auto;
     margin-bottom: 10%;
     display: block;
@@ -73,7 +79,7 @@ footer img{
     font-size: 20px;
 }
 .inicio p{
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: auto;
 }
 .inicio .imgcss{
