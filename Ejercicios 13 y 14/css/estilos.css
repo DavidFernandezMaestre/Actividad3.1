@@ -46,10 +46,13 @@ footer img{
     width: 30%;
 }
 .logos{
-    width: 11%;
+    width: 7%;
 }
 .datos{
     margin-right: 15px;
+}
+.curso{
+    margin-left: 15px;
 }
 .inicio{
     display: flex;
@@ -79,7 +82,7 @@ footer img{
     font-size: 20px;
 }
 .inicio p{
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: auto;
 }
 .inicio .imgcss{
@@ -88,4 +91,14 @@ footer img{
 }
 body{
     background-color: #F0F4F8;
+}
+h3{
+    color: #333333;
+    font-size: 25px;
+}
+.nosotrosmain{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1%;
+    margin-right: 1%;
 }
