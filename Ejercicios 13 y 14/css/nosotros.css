@@ -10,6 +10,7 @@ body{
     justify-content: flex-start;
     align-items: center;
     font-size: 20px;
+    width: 100%;
 }
 .titulo img{
     width: 8%;
@@ -40,13 +41,10 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
-    margin-top: 44%
+    margin-top: 44%;
 }
 footer img{
     width: 30%;
-}
-.logos{
-    width: 7%;
 }
 .datos{
     margin-right: 15px;
@@ -54,47 +52,8 @@ footer img{
 .curso{
     margin-left: 15px;
 }
-.inicio{
-    display: flex;
-    justify-content:space-between;
-    
-}
-.inicio div{
-    border: 1px solid gray;
-    border-radius: 10px;
-    box-shadow: 0 0 5px gray;
-    padding: 1%;
-    margin-top: 2%;
-    margin-bottom: 3%;
-    margin-left: 2%;
-    margin-right: 2%;
-    overflow: hidden;
-}
-.inicio img{
-    width: 50%;
-    height: auto;
-    margin-bottom: 10%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.inicio h2{
-    font-size: 20px;
-}
-.inicio p{
-    font-size: 18px;
-    margin-bottom: auto;
-}
-.inicio .imgcss{
-    height: 57%;
-    width: 45%;
-}
 body{
     background-color: #F0F4F8;
-}
-h3{
-    color: #333333;
-    font-size: 30px;
 }
 .mapavideo{
     display: flex;
@@ -108,4 +67,11 @@ h3{
 }
 .nosotrosmain{
     width: 100%;
+}
+.logos {
+    width: 7%;
+}
+h3{
+    color: #333333;
+    font-size: 30px;
 }
